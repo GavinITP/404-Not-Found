@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 2rem 2.4rem;
+  }
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+.topic {
+  color: #333;
+  font-family: "Inconsolata", "Courier New", Courier, monospace;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.08rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0;
+  left: 77px;
+  top: 40px;
+}
+
+.heading {
+  color: #333;
+  font-family: "Space Mono", "Courier New", Courier, monospace;
+  font-size: 6.4rem;
+  font-weight: 700;
+  letter-spacing: -0.035rem;
+  line-height: 1.5;
+  margin: 0 0 3.6rem 0;
+}
+
+.description {
+  color: #4f4f4f;
+  font-family: "Space Mono", "Courier New", Courier, monospace;
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: -0.035rem;
+  line-height: 1.5;
+  max-width: 27ch;
+  margin: 0 0 6.4rem 0;
+}
+
+.copyright {
+  color: #bdbdbd;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.copyright > a {
+  color: #bdbdbd;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .topic {
+    left: 24px;
+    top: 20px;
+  }
+
+  .heading {
+    font-size: 4.8rem;
+  }
+
+  .description {
+    font-size: 1.8rem;
+    max-width: 60ch;
+  }
+}
+
+/* Button */
+
+.btn-back {
+  background: #333;
+  border: 0;
+  color: #ffffff;
+  font-family: "Space Mono", "Courier New", Courier, monospace;
+  font-size: 1.4rem;
+  font-weight: 700;
+  height: 68px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  width: 216px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  margin: 200px 0 300px;
+}
+
+.grid > img {
+  width: 100%;
+  max-width: 540px;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 65px 0 65px;
+  }
+
+  .grid > img {
+    max-width: 290px;
+  }
+}
