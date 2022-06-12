@@ -90,6 +90,7 @@ html {
   letter-spacing: -0.035em;
   text-transform: uppercase;
   width: 216px;
+  cursor: pointer;
 }
 
 /* Grid */
